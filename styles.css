@@ -5,56 +5,50 @@
 
 body {
   font-family: "Outfit", sans-serif;
-  background-color: hsl(212, 45%, 89%);    
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  align-items : center;
+  min-height: 100vh
+  
 }
 
-
-.img-qr{
-    height: auto;
-    width: 90%;
-    border-radius: 1rem;
-    margin-top: 0.8rem;
-    margin-bottom: 0.8rem;
+.container{
+        max-width: 360px;
+	margin: 0 auto;
 }
-
 .card{
-    width: 23%;
+    padding: 18px;
     background-color: white;
     text-align: center;
-    margin: 50px auto;
-    border-radius: 1rem;
+    margin: 0 1em;
+    border-radius: 17px;
     box-shadow: 5px 5px 50px gray;
 }
 
-.card-body{
-    width: 85%;
-    margin: 0.625rem auto;
-    padding-bottom: 5%;
+.card > img{
+  width: auto;
+  height : auto;
+  max-height: 100%;
+  max-width: 100%;
 }
 
-.card-body h4{
-    font-size: 1.1rem;
+img{
+border-radius: 12px;
+}
+.text{
+    padding: 22px 10px;
+}
+
+.text h4{
+	padding-bottom: 15px
+
     font-weight: 700;
     color: hsl(218, 44%, 22%);
 }
 
-.card-body p{
-    margin: 0.625rem;
-    font-size: 0.75rem;
+.text p{
+	
+
     font-weight: 400;
     color: hsl(220, 15%, 55%);
-
-}
-
-
-.attribution {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  font-size: 11px;
-  text-align: center;
-  box-sizing: border-box;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
 }
